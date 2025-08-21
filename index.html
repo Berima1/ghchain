@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GHCHAIN Wallet</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0a0f1f, #1a2333);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    header {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+      color: gold;
+    }
+    .wallet-card {
+      background: #111827;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+      max-width: 400px;
+      width: 90%;
+    }
+    .balance {
+      font-size: 2rem;
+      margin: 10px 0;
+      color: #10b981;
+    }
+    button {
+      margin: 8px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      background: #2563eb;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    button:hover {
+      background: #1d4ed8;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>🚀 GHCHAIN Wallet</header>
+  
+  <div class="wallet-card">
+    <p>Wallet Address:</p>
+    <p><code>0x1234...abcd</code></p>
+    <p class="balance">Balance: 100 GH₵G</p>
+    <div>
+      <button>Send</button>
+      <button>Receive</button>
+      <button>Transactions</button>
+    </div>
+  </div>
+
+  <footer>
+    Built on GHChain • © 2025
+  </footer>
+</body>
+</html>
