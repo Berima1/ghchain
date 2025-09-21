@@ -1,5 +1,7 @@
-{
-  "name": "ghchain-wallet",
+git add package.json
+git rebase --continue{
+  {
+  "name": "anaase-portal-ui",
   "version": "1.0.0",
   "type": "module",
   "private": true,
@@ -10,19 +12,21 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.0.1",
-    "vite": "^5.4.19"
+    "vite": "^5.4.19",
+    "typescript": "^5.2.2",
+    "@types/react": "^18.2.16",
+    "@types/node": "^20.5.1"
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-
-  "dependencies": {
+    "react-dom": "^18.3.1",
     "body-parser": "^2.2.0",
     "child_process": "^1.0.2",
     "crypto": "^1.0.1",
     "dotenv": "^17.2.1",
-    "express": "^5.1.0",
-    "tweetnacl": "^1.0.3"
+    "express": "^5.1.0"
+  }
+}
  610ecc2 (Add TypeScript devDependencies and NPM_CONFIG_PRODUCTION)
   }
 }
